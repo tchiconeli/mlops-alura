@@ -24,7 +24,7 @@ import os
 
 
 #serialização do modelo
-modelPath = 'mlops-deploy/models/modelo.sav'
+modelPath = 'mlops-alura/models/modelo.sav'
 modelo = pickle.load(open(modelPath,'rb'))
 colunas = ['tamanho','ano','garagem']
 
